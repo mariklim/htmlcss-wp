@@ -6,6 +6,9 @@
 }
 
 /* Common */
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 .clearfix::after {
 	content: "";
 	display: table;
@@ -21,17 +24,24 @@ header, .banner, .leader-title, footer{
 
 /* Header */
 header{
-    background-color:#e579e6;
     margin-top: 20px;
 }
 
 .logo img{
-	width: 200px;
+	width: 150px;
 }
 
 /* menu */
+
+nav{
+text-transform: uppercase;
+padding: 40px 0;
+
+
+}
 nav ul{
 	list-style: none;
+	word-spacing: 10px;
 }
 
 ul li{
@@ -40,6 +50,7 @@ ul li{
 
 li a{
 	text-decoration-line: none;
+	color: #939393;
 }
 
 
