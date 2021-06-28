@@ -63,6 +63,13 @@ li a{
   	background-size: cover;
 }
 
+.banner-text{
+	width: 60%;
+	padding-top: 250px;
+	padding-left: 50px;
+	
+}
+
 /* sfondo tra le colonne */
 .leader{
     background-color:#0086ff ;
