@@ -36,9 +36,8 @@ header{
 nav{
 text-transform: uppercase;
 padding: 40px 0;
-
-
 }
+
 nav ul{
 	list-style: none;
 	word-spacing: 10px;
@@ -56,8 +55,12 @@ li a{
 
 /* Main */
 .banner{
-    height: 400px;
-    background-color:#e1d67a;
+    height: 500px;
+	border-radius: 20px;
+    background-image: url( "../img/banner.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 /* sfondo tra le colonne */
