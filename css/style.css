@@ -65,22 +65,28 @@ li a{
 
 .banner-text{
 	width: 60%;
-	padding-top: 250px;
+	padding-top: 300px;
 	padding-left: 50px;
+	color: white;
 	
 }
 
 /* sfondo tra le colonne */
 .leader{
     background-color:#0086ff ;
-    padding-bottom: 20px;
 }
 
 /* Titolo della Main */
 
 .leader-title{
-    height: 80px;
-    background-color:#abcfe7 ;
+	/* non dimenticare di togliere bg alla fine */
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.leader-title p{
+ color: #9a9a9a;
+ font-size: 13px;
 }
 
 /* seziona delle colonne */
