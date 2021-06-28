@@ -140,7 +140,12 @@ li a{
 
 /* footer */
 footer{
-    height: 60px;
-    background-color: violet;
-    margin-top: 10px;
+    padding-top: 40px;
+	text-align: center;
+}
+
+footer span{
+	color: red;
+	font-size: 25px;
+
 }
