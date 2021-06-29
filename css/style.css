@@ -68,6 +68,7 @@ li a{
 	background-position: center;
   	background-size: cover;
 	position: relative;
+	overflow: hidden;
 }
 
 /* Titolo del Banner */
@@ -130,17 +131,7 @@ li a{
 	background-image: url("../img/banner-2.jpg");
 }
 
-.colonna-text h5{
-	font-weight: 500;
-	font-size: 20px;
-	padding: 20px 0;
-	color: black;
-}
 
-.colonna-text p{
-	font-size: 15px;
-	color:#606060;
-}
 
 
 /* footer */
@@ -152,4 +143,19 @@ footer{
 footer span{
 	color: red;
 	font-size: 25px;
+}
+
+.overlay {
+	position: relative;
+}
+
+.overlay::before {
+	content: '';
+	display: block;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
